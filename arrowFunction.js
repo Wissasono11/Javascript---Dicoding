@@ -18,3 +18,9 @@ const convertCelciusToFahrenheitUsingArrow = (temperature) => {
 }
 temperatureInFahrenheit = convertCelciusToFahrenheitUsingArrow(90);
 console.log("Hasil konversi suhu menggunakan arrow function:", temperatureInFahrenheit);
+
+// arow function simple version
+const convertCelciusToFahrenheitInConciseSyntax = (temperature) => ( 9 / 5) * temperature + 32;
+
+temperatureInFahrenheit = convertCelciusToFahrenheitInConciseSyntax(90);
+console.log("Hasil konversi suhu menggunakan arrow function dengan sintaksis ringkas:", temperatureInFahrenheit);
