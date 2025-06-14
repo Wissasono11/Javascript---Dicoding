@@ -10,3 +10,7 @@ const user = {
 
 username = "Asep Reinjders"; 
 console.log(user.username);
+
+// menghapus nilai dari properti objek'
+delete user.nickname;
+console.log(user)

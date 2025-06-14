@@ -27,5 +27,5 @@ const { name, gender } = sesuatuYangLain;
 console.log(name, gender)
 
 // atau memanfdaatkan default value saat destructuring
-const {name, gender, age, location = "Sampit"} = sesuatuYangLainLagi;
+const { nama, gende, age, location = "Sampit"} = sesuatuYangLainLagi;
 console.log(location)
