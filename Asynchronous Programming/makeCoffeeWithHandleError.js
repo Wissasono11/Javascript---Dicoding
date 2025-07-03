@@ -1,4 +1,4 @@
-export function makeCoffee(name, fallback){
+export function makeCoffee(name, callback){
     const estimationTime = 5000; // 1000 milidetik = 1 detik
     let isSuccess = false;
 
@@ -36,5 +36,8 @@ export function sendCoffee(name, callback){
             callback(new Error('Gagal mengantarkan kopi.'), null);
             return;
         }
-    })
+
+        console.log('Kopi sudah sampai di meja Anda!');
+        callback(null, name);
+    }, estimationTime)
 }

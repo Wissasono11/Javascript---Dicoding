@@ -1,4 +1,4 @@
-import { makeCoffee, sendcoffee } from './makeCoffeeWithHandleError'
+import { makeCoffee, sendCoffee } from './makeCoffeeWithHandleError'
 
 const order = 'Kopi Espresso';
 
