@@ -19,9 +19,9 @@ makeCoffee(coffeeOrder)
     (value) => {
       console.log(`Pramusaji memberikan ${value} pesanan kopi Anda.`);
       console.log(`Saya mendapatkan ${value} dan menghabiskannya`);
-    },
-    (error) => {
+    })
+  
+    .catch((error) => {
       console.error(error.message);
       throw error;
-    }
-  );
+    });
