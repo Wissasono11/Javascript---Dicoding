@@ -25,7 +25,7 @@ class Android extends SmartPhones{
     //     console.log(`Charging ${this.model} with Fast Charging`);
     // }
 
-    // atau juga bisa seperti i ni 
+    // atau juga bisa seperti ini 
     charging(){
         super.charging(); // memanggil method dari SuperClass
         console.log(`Charging ${this.model} with Fast Charging`);

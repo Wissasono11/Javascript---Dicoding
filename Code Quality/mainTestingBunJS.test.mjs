@@ -1,5 +1,5 @@
 import { describe, it, expect } from "bun:test";
-import { add } from "./testingWithBunJS.test.mjs";
+import { add } from "./testingWithBunJS.mjs";
 /**
  * case #1 : should add correctly
  * case #2 : should throw an error if string passed on numA parameter
